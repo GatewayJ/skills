@@ -1,4 +1,4 @@
 interface:
   display_name: "代码审查"
-  short_description: "审查架构边界、代码质量、测试有效性和一致性风险"
-  default_prompt: "使用 $code-review 审查指定范围的变更，重点关注架构边界、业务语义、代码风格、单测质量、正确性、性能和一致性。"
+  short_description: "按轻量或严格模式审查架构边界、代码质量与一致性风险"
+  default_prompt: "使用 $code-review 审查指定范围的变更，根据风险选择轻量或严格模式，重点关注架构边界、测试有效性、正确性、性能和一致性。"
